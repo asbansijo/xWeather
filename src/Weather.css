@@ -1,0 +1,64 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.loading {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #888;
+}
+
+.error {
+    margin-top: 20px;
+    font-size: 16px;
+    color: red;
+}
+
+.error button {
+    padding: 5px;
+    font-size: 14px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.weather-cards {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.weather-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    text-align: center;
+}
+
+.weather-card h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
